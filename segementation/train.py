@@ -74,7 +74,7 @@ val_Data=CityscapeData(val_dataset)
 
 BATCH_SIZE=12
 train_loader = DataLoader(dataset=train_Data, batch_size=BATCH_SIZE,shuffle=True)
-val_loader = DataLoader(dataset=train_Data, batch_size=BATCH_SIZE)
+val_loader = DataLoader(dataset=val_Data, batch_size=BATCH_SIZE)
 
 
 ENCODER = 'se_resnext50_32x4d'
