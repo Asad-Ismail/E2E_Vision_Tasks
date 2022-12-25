@@ -1,0 +1,3 @@
+torch
+segmentation-models-pytorch
+datasets
