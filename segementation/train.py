@@ -138,7 +138,7 @@ if __name__=="__main__":
     for i in range(0, 200):  
         print('\nEpoch: {}'.format(i))
         train_logs = train_epoch.run(train_loader)
-        valid_logs = valid_epoch.run(valid_loader)
+        valid_logs = valid_epoch.run(val_loader)
         
         # do something (save model, change lr, etc.)
         if max_score < valid_logs['f1']:
